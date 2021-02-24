@@ -21,7 +21,7 @@ if (empty($name)|| empty($companyname) ||empty($address)|| empty($contact)|| emp
 }
 else{
 
-    mail("anandthami76@gmail.com", "WHIN Nepal Inquiry" ,$msg);
+    mail("yourmail@mail.com", "WHIN Nepal Inquiry" ,$msg);
     echo "<script type='text/javascript'> alert('Your Message Sent Succesfully');window.history.go(-1);</script>";
 }
 ?>
